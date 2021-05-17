@@ -20,7 +20,7 @@ def trace_carre_rec(cote_carre, nb_carres):
     if nb_carres > 0:
         # Alors, on se place bien et on lance le dessin du carré de niveau -1
         right(45)
-        trace_carre_rec(cote_carre / c, nb_carres - 1) # Appel récursif
+        trace_carre_rec(cote_carre / c, nb_carres - 1) # Appel récursif sans while
     # On poursuit le tracé du carré
     forward(cote_carre/2)
     for i in range(3):
