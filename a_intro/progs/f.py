@@ -1,4 +1,8 @@
 import random as rd
+""" Ce commentaire n'a aucun intérêt
+    Il est juste là pour placer la chaîne 'while'
+    et voir s'il est détecté ou pas.
+"""
 
 l = []
 for i in range(20):
